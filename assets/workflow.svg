@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 260" width="1000" height="260" font-family="Segoe UI, Arial, sans-serif">
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0 0L10 5L0 10z" fill="#64748b"/>
+    </marker>
+  </defs>
+  <rect width="1000" height="260" fill="#ffffff"/>
+  <g font-size="16" font-weight="600" fill="#0f172a" text-anchor="middle">
+    <rect x="20" y="90" width="150" height="80" rx="10" fill="#e0f2fe" stroke="#0284c7" stroke-width="2"/>
+    <text x="95" y="126">Target</text><text x="95" y="148" font-size="13" font-weight="400">domain / URL</text>
+
+    <rect x="215" y="20" width="200" height="60" rx="10" fill="#f1f5f9" stroke="#64748b" stroke-width="2"/>
+    <text x="315" y="48">HTTP + TLS probe</text><text x="315" y="67" font-size="12" font-weight="400">headers, cookies, cert</text>
+
+    <rect x="215" y="100" width="200" height="60" rx="10" fill="#f1f5f9" stroke="#64748b" stroke-width="2"/>
+    <text x="315" y="128">Port scan</text><text x="315" y="147" font-size="12" font-weight="400">banner grabbing</text>
+
+    <rect x="215" y="180" width="200" height="60" rx="10" fill="#f1f5f9" stroke="#64748b" stroke-width="2"/>
+    <text x="315" y="208">Exposed paths</text><text x="315" y="227" font-size="12" font-weight="400">.env, .git, admin...</text>
+
+    <rect x="470" y="90" width="170" height="80" rx="10" fill="#fef9c3" stroke="#ca8a04" stroke-width="2"/>
+    <text x="555" y="126">Tech detection</text><text x="555" y="148" font-size="13" font-weight="400">name + version</text>
+
+    <rect x="690" y="90" width="140" height="80" rx="10" fill="#fee2e2" stroke="#dc2626" stroke-width="2"/>
+    <text x="760" y="126">NVD API</text><text x="760" y="148" font-size="13" font-weight="400">CVE match</text>
+
+    <rect x="870" y="90" width="115" height="80" rx="10" fill="#dcfce7" stroke="#16a34a" stroke-width="2"/>
+    <text x="927" y="126">Report</text><text x="927" y="148" font-size="13" font-weight="400">console + JSON</text>
+  </g>
+  <g stroke="#64748b" stroke-width="2" fill="none" marker-end="url(#a)">
+    <path d="M170 120L215 55"/><path d="M170 130L215 130"/><path d="M170 140L215 205"/>
+    <path d="M415 50L470 110"/><path d="M415 130L470 130"/><path d="M415 210L470 150"/>
+    <path d="M640 130L690 130"/><path d="M830 130L870 130"/>
+  </g>
+</svg>
